@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <h2>KhataBook</h2>
+        <div class="links">
+          <a href="/" class="btn">Home</a>
+          <a href="/create" class="btn">Create New Hisaab</a>
+        </div>
+      </div>
+      <h3>Create New Hisaab</h3>
+      <form action="/createhisaab" method="POST" class="create-form">
+        <input
+          type="text"
+          name="title"
+          placeholder="Title..."
+          required
+        />
+        <textarea name="content" placeholder="Daal, Aata, Cheeni"></textarea>
+        <button type="submit" class="btn">Create New Hisaab</button>
+      </form>
+    </div>
+  </body>
+</html>
